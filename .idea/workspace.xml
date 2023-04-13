@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="111da374-057e-4e80-b06e-93b83b3078a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AdminPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DeanPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LessonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/AdminStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/DeanStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/HomeStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/LessonStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/LoginStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US05_admin_ see_delete_update_deans/TC01_admin_see_deans_list.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US05_admin_ see_delete_update_deans/TC02_admin_delete_deans.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US05_admin_ see_delete_update_deans/TC03_admin_update_deans.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US10_vicedean_create_lesson_program/TC01_vicedean_cerate_lesson_program.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
