@@ -12,8 +12,8 @@ import utilities.Driver;
 
 
 public class HomePage {
-    public HomePage(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    public HomePage() { PageFactory.initElements(Driver.getDriver(), this); }
+
 
 
 
@@ -138,7 +138,8 @@ public class HomePage {
 
 
         //Kamil
-
+        @FindBy(linkText = "Login")
+        public WebElement loginLink;
 
 
 
@@ -308,5 +309,5 @@ public class HomePage {
 
 
 
-    }
+
 }
