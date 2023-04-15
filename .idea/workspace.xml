@@ -4,15 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47d15e7-3189-47b7-a8b0-5d59fc5b26c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US05_admin_ see_delete_update_deans/TC01_admin_see_deans_list.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US05_admin_ see_delete_update_deans/TC02_admin_delete_deans.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US05_admin_ see_delete_update_deans/TC03_admin_update_deans.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US10_vicedean_create_lesson_program/TC01_vicedean_cerate_lesson_program.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US11_vicedean_see_update_delete_lesson_program/TC01_vicedean_see_lesson_program.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/DeanStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/DeanStepDefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
