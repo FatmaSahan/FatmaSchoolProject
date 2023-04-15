@@ -1,7 +1,7 @@
-@US11_TC01
-Feature: ViceDean should be able to see created Lesson Program
+@US11_TC02
+Feature: ViceDean should be able to updates
 
-  Scenario:login in viceDean account
+  Scenario:Login in ViceDean account
     Given user is on "managementonschoolsurl" page
     When user clicks on the Login button
     Then enters the user name as "viceDeanUser"
@@ -29,14 +29,21 @@ Feature: ViceDean should be able to see created Lesson Program
     Then confirms that the lesson program is created successfully
     And user wait 2 sn
 
-  Scenario: see created Lesson Program
+  Scenario: Updates in the Lesson Program List table
     And find the lesson name from the Lesson Program List
     And Selects the line with the lesson name
     And user wait 2 sn
-    And verify Lesson name found
-    And verify Day name found
-    And verify Start Time found
-    And verify Stop Time found
+    And user clicks the Edit button on the Lesson Program List
+    And user wait 2 sn
+    And updates the Lesson field
+    And updates the Day field
+    And updates the Start Time field
+    And updates the Stop Time field
+    And user wait 2 sn
+    And user clicks the submit button on the Lesson Program List
+    And user wait 2 sn
+    And user waits for the lesson update message to be displayed
+    And user wait 2 sn
+    And verifies lesson program list updated
     And user wait 2 sn
     And close page
-

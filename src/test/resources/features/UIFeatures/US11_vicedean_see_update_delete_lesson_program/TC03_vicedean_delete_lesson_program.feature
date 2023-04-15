@@ -1,7 +1,7 @@
-@US11_TC01
-Feature: ViceDean should be able to see created Lesson Program
+@US11_TC03
+Feature: Vice Dean should be able to delete Lesson Program
 
-  Scenario:login in viceDean account
+  Scenario:Login in ViceDean account
     Given user is on "managementonschoolsurl" page
     When user clicks on the Login button
     Then enters the user name as "viceDeanUser"
@@ -29,14 +29,16 @@ Feature: ViceDean should be able to see created Lesson Program
     Then confirms that the lesson program is created successfully
     And user wait 2 sn
 
-  Scenario: see created Lesson Program
+  Scenario: delete in the Lesson Program List table
     And find the lesson name from the Lesson Program List
     And Selects the line with the lesson name
     And user wait 2 sn
-    And verify Lesson name found
-    And verify Day name found
-    And verify Start Time found
-    And verify Stop Time found
+    And user clicks the Delete button on the Lesson Program List
+    And user wait 2 sn
+    And user waits for the lesson delete message to be displayed
+    And user wait 2 sn
+    And verifies lesson program list deleted
     And user wait 2 sn
     And close page
+
 

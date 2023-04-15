@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import pages.DeanPage;
+import utilities.Driver;
 import utilities.ReusableMethods;
 
 
@@ -78,7 +79,7 @@ public class DeanStepDefs {
                 }
                 if (end > 0) break;
                 ReusableMethods.waitFor(2);
-                ReusableMethods.cl(deanPage.forwardButton);
+                Driver.clickWithJS(deanPage.forwardButton);
                 Driver.wait(2);
             }
         } catch (Exception e) {
@@ -137,20 +138,15 @@ public class DeanStepDefs {
         deanPage.userNameInput.sendKeys(Keys.CONTROL + "a", Keys.DELETE);
         deanPage.userNameInput.sendKeys(username);
     }
-
     @When("user clicks the submit button")
     public void user_clicks_the_submit_button() {
         Driver.clickWithJS(deanPage.submitButton);
     }
-
     @When("verifies dean updated")
     public void verifies_dean_updated() {
-
         String expected = "Dean updated Successful";
         Assert.assertEquals(expected, actualData);
-
     }
-
     @And("updates the password fied")
     public void updatesThePasswordFied() {
         deanPage.passwordInput.sendKeys(Keys.CONTROL + "a", Keys.DELETE);
@@ -158,7 +154,6 @@ public class DeanStepDefs {
     }
     @And("user waits for the message to be displayed")
     public void userWaitsForTheMessageToBeDisplayed() {
-
     actualData=Driver.waitAndGetText(deanPage.messageAlert,15);
         System.out.println("actualData = " + actualData);
     }
