@@ -9,23 +9,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import pages.DeanPage;
-import utilities.Driver;
-
-import static stepdefinitions.uistepdefinitions.LessonStepDefs.lessonName;
+import utilities.ReusableMethods;
 
 
 public class DeanStepDefs {
 
     public static String actualData;
     public static int counter;
-
     Faker faker = new Faker();
-
     String name = faker.name().firstName();
-
     String surName = faker.name().lastName();
     String username = faker.name().username();
-
     DeanPage deanPage = new DeanPage();
 
 
@@ -83,8 +77,8 @@ public class DeanStepDefs {
                     }
                 }
                 if (end > 0) break;
-                Driver.wait(2);
-                Driver.clickWithJS(deanPage.forwardButton);
+                ReusableMethods.waitFor(2);
+                ReusableMethods.cl(deanPage.forwardButton);
                 Driver.wait(2);
             }
         } catch (Exception e) {
