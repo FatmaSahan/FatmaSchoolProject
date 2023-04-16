@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21db1df6-ded1-4488-9091-dc787466e900" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DeanRequestPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DeanResponsePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/apistepdefinitions/DeanApiStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US05_api_admin_ see_delete_update_deans/TC01_api_admin_see_deans_list.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US05_api_admin_ see_delete_update_deans/TC02_api_admin_update_deans_list.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US05_api_admin_ see_delete_update_deans/TC03_api_admin_delete_deans_list.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +44,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PISI\IdeaProjects\StudentManagementProject18\src\test\java" />
+      <recent name="C:\Users\PISI\IdeaProjects\StudentManagementProject18\src\test\resources\features" />
+      <recent name="C:\Users\PISI\IdeaProjects\StudentManagementProject18\src\test\java\stepdefinitions\apistepdefinitions" />
       <recent name="C:\Users\PISI\IdeaProjects\StudentManagementProject18\src\test\resources\features\UIFeatures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -60,6 +56,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/utilities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stepdefinitions.apistepdefinitions" />
       <recent name="utilities" />
       <recent name="runners" />
       <recent name="pages" />
@@ -69,6 +66,7 @@
     <configuration name="All Features in: US05_api_admin_ see_delete_update_deans" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US05_api_admin_ see_delete_update_deans" />
+      <option name="GLUE" value="stepdefinitions.apistepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="batch103Cucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
