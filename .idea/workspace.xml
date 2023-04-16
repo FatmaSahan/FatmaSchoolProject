@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21db1df6-ded1-4488-9091-dc787466e900" name="Changes" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LessonManagementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ViceDeanPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner_hilal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/ViceDeanStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC03.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC04.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC05.feature" afterDir="false" />
+=======
+>>>>>>> main
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC01.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC02.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC02.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/US08_TC01 (1).feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +63,25 @@
       <recent name="C:\Users\PISI\IdeaProjects\StudentManagementProject18\src\test\resources\features\UIFeatures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/pages" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08" />
       <recent name="$PROJECT_DIR$/src/test/resources/features/UIFeatures" />
       <recent name="$PROJECT_DIR$/src/test/resources/features/APIFeatures" />
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
-      <recent name="$PROJECT_DIR$/src/test/java/runners" />
-      <recent name="$PROJECT_DIR$/src/test/java/utilities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+<<<<<<< HEAD
+=======
       <recent name="stepdefinitions.apistepdefinitions" />
       <recent name="utilities" />
+>>>>>>> main
       <recent name="runners" />
       <recent name="pages" />
     </key>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="JUnit.Runner_hilal">
+=======
   <component name="RunManager" selected="Cucumber Java.All Features in: US05_api_admin_ see_delete_update_deans">
     <configuration name="All Features in: US05_api_admin_ see_delete_update_deans" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -82,6 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+>>>>>>> main
     <configuration name="Feature: TC01_admin_see_deans_list" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US05_admin_ see_delete_update_deans/TC01_admin_see_deans_list.feature" />
@@ -130,8 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="Runner_hilal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentManagementProject18" />
+=======
     <configuration name="Runner_kamil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="batch103Cucumber" />
+>>>>>>> main
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="runners.*" />
@@ -139,7 +165,11 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="runners.Runner_hilal" />
+=======
       <option name="MAIN_CLASS_NAME" value="runners.Runner_kamil" />
+>>>>>>> main
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,9 +177,13 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
+        <item itemvalue="JUnit.Runner_hilal" />
+=======
         <item itemvalue="Cucumber Java.All Features in: US05_api_admin_ see_delete_update_deans" />
         <item itemvalue="JUnit.Runner_kamil" />
         <item itemvalue="JUnit.Runner (1)" />
+>>>>>>> main
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: TC01_admin_see_deans_list" />
       </list>
