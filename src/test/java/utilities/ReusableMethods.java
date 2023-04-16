@@ -200,4 +200,19 @@ public class ReusableMethods {
             Assert.fail("Element not found: " + by);
         }
     }
+
+public static void selectAnItemFromDropdown(WebElement item, String selectableItem) {
+        ReusableMethods.waitFor(1);
+        Select select = new Select(item);
+        for (int i = 0; i < select.getOptions().size(); i++) {
+            if (select.getOptions().get(i).getText().equalsIgnoreCase(selectableItem)) {
+                select.getOptions().get(i).click();
+                break;
+            }
+        }
+    }
+    public static void clickByJS(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].click();", element);
+    }
 }
