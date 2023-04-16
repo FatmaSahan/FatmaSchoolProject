@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111da374-057e-4e80-b06e-93b83b3078a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="21db1df6-ded1-4488-9091-dc787466e900" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LessonManagementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ViceDeanPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner_hilal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/ViceDeanStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC03.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC04.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC05.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC01.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC02.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC02.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/US08_TC01 (1).feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +58,18 @@
       <recent name="C:\Users\PISI\IdeaProjects\StudentManagementProject18\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/pages" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08" />
       <recent name="$PROJECT_DIR$/src/test/resources/features/UIFeatures" />
       <recent name="$PROJECT_DIR$/src/test/resources/features/APIFeatures" />
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
-      <recent name="$PROJECT_DIR$/src/test/java/runners" />
-      <recent name="$PROJECT_DIR$/src/test/java/utilities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runners" />
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="JUnit.Runner_hilal">
     <configuration name="Feature: TC01_admin_see_deans_list" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US05_admin_ see_delete_update_deans/TC01_admin_see_deans_list.feature" />
@@ -92,8 +103,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner_hilal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentManagementProject18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner_hilal" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner_hilal" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: TC01_admin_see_deans_list" />
       </list>

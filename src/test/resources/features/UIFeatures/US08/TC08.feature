@@ -1,7 +1,6 @@
-@US08
 Feature: Vice Dean should be able to create courses
 
-  Scenario: Lesson name must be valid
+  Scenario: Credit Score section should not receive an invalid value
 
     Given User goes to the home page
     Then User clicks the login button
@@ -9,7 +8,7 @@ Feature: Vice Dean should be able to create courses
     Then User enters user password
     Then User clicks the login button
     Then User clicks on the lessons button
-    And  User enters a valid value in the lesson name text box
-    Then User enters a valid value in the credit score text box
+    Then User enters a valid value in the lesson name text box
+    And  User enters an invalid value in the credit score text box
     Then User clicks the submit button
-    Then User sees the message lesson created
+    Then User sees the error message
