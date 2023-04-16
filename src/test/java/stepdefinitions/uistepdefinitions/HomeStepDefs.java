@@ -10,7 +10,6 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 
-
 public class HomeStepDefs {
 
     HomePage homePage = new HomePage();

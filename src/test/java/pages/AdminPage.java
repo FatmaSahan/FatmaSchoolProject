@@ -9,9 +9,9 @@ import utilities.Driver;
 
 
 
-
 public class AdminPage {
     public AdminPage() { PageFactory.initElements(Driver.getDriver(), this); }
+
 
 
 
@@ -138,11 +138,11 @@ public class AdminPage {
 
 
         //Kamil
-    @FindBy(xpath = "//*[text()='Menu']")
-    public WebElement menuButton;
+    @FindBy(xpath = "//*[text()='Menu']")   public WebElement menuButton;
+    @FindBy(linkText = "Dean Management")   public WebElement deanManagementLink;
 
-    @FindBy(linkText = "Dean Management")
-    public WebElement deanManagementLink;
+
+
 
 
 
@@ -168,8 +168,6 @@ public class AdminPage {
 
 
         //Nur Efsan
-
-
 
 
 
