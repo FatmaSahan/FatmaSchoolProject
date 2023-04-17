@@ -78,17 +78,22 @@ public class DeanPage {
 
 
         //Hakan
-
-
-
-
-
-
-
-
-
-
-
+@FindBy(xpath = "//input[@id='name']") public WebElement nametextbox;
+@FindBy(xpath = "//input[@id='surname']") public WebElement surnameTextbox;
+@FindBy(xpath = "//input[@id='birthPlace']") public WebElement birtplaceTextBox;
+@FindBy(xpath = "//input[@value='FEMALE']") public WebElement femaleGenderbutton;
+@FindBy(xpath = "//input[@value='MALE']") public WebElement maleGenderbutton;
+@FindBy(xpath = "//*[@id='birthDay']") public WebElement dateofBirth;
+@FindBy(xpath = "//input[@id='phoneNumber']") public WebElement phoneNumberdean;
+@FindBy(xpath = "//input[@id='ssn']") public WebElement ssninputdean;
+@FindBy(xpath = "//input[@id='username']")public WebElement usernameInputdean;
+@FindBy(xpath = "//input[@id='password']") public WebElement passwordInputDean;
+@FindBy(xpath = "//button[text()='Submit']") public WebElement submitButtondean;
+@FindBy(xpath = "(//div[text()='Required'])[1]")public WebElement requiredname;
+@FindBy(xpath = "(//div[text()='Required'])[2]") public WebElement requiredsurname;
+@FindBy(xpath = "(//*[text()='Required'])[3]") public WebElement requiredbirtplace;
+@FindBy(xpath = "//label[text()='User Name']/.")public WebElement requiredusername;
+@FindBy(xpath = "//*[text()='Required']") public WebElement required;
 
 
 
