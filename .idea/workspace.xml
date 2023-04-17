@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21db1df6-ded1-4488-9091-dc787466e900" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US09_vicedean_see_update_lesson_list/TC01.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US09_vicedean_see_update_lesson_list/TC02.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US09_vicedean_see_update_lesson_list/TC03.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner_hakan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/DeanViceDeanSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC01.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC02.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC03.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC04.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC05.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC06.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC07.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC08.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC09.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC10.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_12/US12_TC01.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner_hilal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner_hilal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/ViceDeanStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/ViceDeanStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08_vicedean_create_lessons/TC01.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC02.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08_vicedean_create_lessons/TC02.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC03.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08_vicedean_create_lessons/TC03.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC04.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08_vicedean_create_lessons/TC04.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC05.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08_vicedean_create_lessons/TC05.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC06.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08_vicedean_create_lessons/TC06.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC07.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08_vicedean_create_lessons/TC07.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08/TC08.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US08_vicedean_create_lessons/TC08.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DeanPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DeanPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LessonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LessonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/LessonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/LessonStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/reports/g1g2g3g4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/g1g2g3g4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/kamilReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/kamilReports.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,15 +81,16 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner_hilal (1)">
-    <configuration name="All Features in: US05_api_admin_ see_delete_update_deans" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Runner_hakan">
+    <configuration name="Scenario: Select Lesson by Choosing Teacher" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US05_api_admin_ see_delete_update_deans" />
-      <option name="GLUE" value="stepdefinitions.apistepdefinitions hooks" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_12/US12_TC01.feature" />
+      <option name="GLUE" value="hooks stepdefinitions.uistepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="batch103Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: US05_api_admin_ see_delete_update_deans" />
+      <module name="StudentManagementProject18" />
+      <option name="NAME_FILTER" value="^Select Lesson by Choosing Teacher$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Select Lesson by Choosing Teacher$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Select Lesson by Choosing Teacher" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -94,6 +98,41 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC01.feature" />
+      <option name="GLUE" value="hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="StudentManagementProject18" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner_hakan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentManagementProject18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner_hakan" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,12 +147,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
       <option name="MAIN_CLASS_NAME" value="runners.Runner_hilal" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner_hilal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,28 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner_kamil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="batch103Cucumber" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner_kamil" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner_hakan" />
+        <item itemvalue="Cucumber Java.Scenario: Select Lesson by Choosing Teacher" />
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="JUnit.Runner_hilal (1)" />
         <item itemvalue="JUnit.Runner_kamil (1)" />
-        <item itemvalue="JUnit.Runner_hilal" />
-        <item itemvalue="Cucumber Java.All Features in: US05_api_admin_ see_delete_update_deans" />
-        <item itemvalue="JUnit.Runner_kamil" />
       </list>
     </recent_temporary>
   </component>

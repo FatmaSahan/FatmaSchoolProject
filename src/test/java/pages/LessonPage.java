@@ -78,11 +78,12 @@ public class LessonPage {
 
 
         //Hakan
+@FindBy(xpath = "//input[@value='921']") public WebElement randomlesson;
+   // @FindBy(xpath = "(//input[@id='lessonProgramId'])[27]")
+    //public WebElement MathCheckboxId;
+@FindBy(id = "teacherId") public WebElement teacherId;
 
-
-
-
-
+@FindBy(xpath = "(//*[text()='Submit'])[4]") public WebElement submitbutton;
 
 
 

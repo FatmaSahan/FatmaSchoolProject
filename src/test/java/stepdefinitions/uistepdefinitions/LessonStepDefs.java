@@ -2,6 +2,7 @@ package stepdefinitions.uistepdefinitions;
 
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -11,7 +12,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import pages.LessonPage;
+import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class LessonStepDefs {
 
@@ -137,6 +140,32 @@ public class LessonStepDefs {
     @And("verify course name found")
     public void verifyCourseNameFound() {
         Assert.assertEquals(lessonName,actualLessonName);
+    }
+
+    @Given("a User wants to select a lesson")
+    public void aUserWantsToSelectALesson() {
+        ReusableMethods.clickByJS(lessonPage.randomlesson);
+
+
+
+    }
+
+    @And("the User clicks on the {string} button")
+    public void theUserClicksOnTheButton(String arg0) {
+    lessonPage.submitbutton.click();
+
+    }
+
+    @And("the User selects a teacher from the {string} dropdown")
+    public void theUserSelectsATeacherFromTheDropdown(String arg0) {
+
+        Select select =new Select(lessonPage.teacherId);
+        select.selectByValue("5");
+    }
+
+    @Then("the User will see a {string} message displayed on the screen.")
+    public void theUserWillSeeAMessageDisplayedOnTheScreen(String arg0) {
+
     }
 }
 
