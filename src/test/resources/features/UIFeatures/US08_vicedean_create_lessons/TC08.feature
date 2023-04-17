@@ -6,7 +6,7 @@ Feature: Vice Dean should be able to create courses
     Then User clicks the login button
     Then User enters user name
     Then User enters user password
-    Then User clicks the login button
+    Then User clicks the login button2
     Then User clicks on the lessons button
     Then User enters a valid value in the lesson name text box
     And  User enters an invalid value in the credit score text box
