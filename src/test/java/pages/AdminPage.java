@@ -18,8 +18,8 @@ public class AdminPage {
 
 
         //Erkan
-        @FindBy(linkText = "Login")
-        public WebElement loginLink2222;
+
+
 
 
 
@@ -193,6 +193,8 @@ public class AdminPage {
 
 
 
+    
+    
 
 
         //Seyma
