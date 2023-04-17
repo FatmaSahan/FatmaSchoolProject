@@ -18,11 +18,11 @@ public class HomePage {
 
 
         //Erkan
-
-
-
-
-
+        @FindBy(id = "username") public WebElement userNameInput;
+        @FindBy(id = "password") public WebElement passwordInput;
+        @FindBy(xpath = "//button[text()='Login']") public WebElement loginButton;
+        @FindBy(xpath = "//*[text()='Menu']") public WebElement menuButton;
+        @FindBy(linkText = "Student Management") public WebElement studentManagementLink;
 
 
 
