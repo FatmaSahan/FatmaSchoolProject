@@ -16,7 +16,7 @@ import utilities.ReusableMethods;
 
 import java.text.SimpleDateFormat;
 
-public class StepDefinitionsOfFatma {
+public class RegisterContactStepDefs {
     RegisterPage registerPage = new RegisterPage();
 
     Actions actions = new Actions(Driver.getDriver());
