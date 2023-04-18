@@ -97,7 +97,7 @@ public class StepDefinitionsOfFatma {
     public void verifiesTheVisibilityOfTheInvalidNameMessage() {
         ReusableMethods.waitForVisibility(registerPage.ConfirmMessage, 4);
         ReusableMethods.hover(registerPage.ConfirmMessage);
-        Assert.assertNotEquals("Please enter valid name", registerPage.ConfirmMessage.getText());
+        Assert.assertEquals("Please enter valid name", registerPage.ConfirmMessage.getText());
 
        // Assert.assertTrue(!registerPage.ConfirmMessage.isDisplayed());
     }

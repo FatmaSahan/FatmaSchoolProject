@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"html:src/test/resources/reports/g1g2g3g4.html"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@US01_TC03",
+        tags = "@US03_TC02",
         dryRun = false //Seneryonun adımlarını kontrol eder ve çalıştığını görürüz
 
 )

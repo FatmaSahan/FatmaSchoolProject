@@ -6,19 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="21db1df6-ded1-4488-9091-dc787466e900" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner_Fatma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner_Fatma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/apistepdefinitions/DeanApiStepDefs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/StepDefinitionsOfFatma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/StepDefinitionsOfFatma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/ViceDeanStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/ViceDeanStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US01_Register/TC01_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US01_Register/TC01_Register.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US01_Register/TC02_SsnNegatifTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US01_Register/TC02_SsnNegatifTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US01_Register/TC03_PasswordNegatifTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US01_Register/TC03_PasswordNegatifTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC01_PozitifTestOfName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC01_PozitifTestOfName.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC02_NegatifTestOfName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC02_NegatifTestOfName.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC03_NegatifTestOfEmail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC03_NegatifTestOfEmail.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC04_NegatifTestOfEmail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC04_NegatifTestOfEmail.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/reports/g1g2g3g4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/g1g2g3g4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
