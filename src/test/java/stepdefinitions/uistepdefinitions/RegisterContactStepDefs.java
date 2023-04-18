@@ -214,7 +214,9 @@ public void clicksTheTopRegisterButon() {
 
     @Then("close driver")
     public void closeDriver() {
+        ReusableMethods.waitFor(4);
         Driver.closeDriver();
+
     }
 
 
