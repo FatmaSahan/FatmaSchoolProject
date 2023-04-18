@@ -1,8 +1,6 @@
 @US03_TC05
-  #test ran and passed
 
 Feature: US03_Contact
-
   Scenario Outline: TC05-PozitifTest_With_ValidData
     Given User goes to home page
     When Clicks the top ContactButon

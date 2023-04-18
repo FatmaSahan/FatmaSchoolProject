@@ -4,8 +4,8 @@ Feature:
   Scenario: Register
     Given User goes to home page
     When Clicks the TopRegisterButon
-    And cliks name
-    And cliks page
+    And Clics name
+    And Clics page
     Then If NameRequiredText visibilities enters name in NameTextBox
     Then If SurnameRequiredText visibilities enters surname in SurNameTextBox
     Then If BirtPlaceRequiredText visibilities enters birthplace in BirtPlaceRequiredText
@@ -16,5 +16,5 @@ Feature:
     Then If UserNameRequiredText visibilities enters username in UserNameText
     Then If PasswordRequiredText visibilities enters 8 character password in PasswordBox
     And Clicks the BottomRegisterButton
-    Then  Then Verifies the visibility of the GuestUserRegisteredText
+    Then Verifies the visibility of the GuestUserRegisteredText
     Then close driver

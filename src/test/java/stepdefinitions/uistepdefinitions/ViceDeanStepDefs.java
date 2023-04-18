@@ -21,11 +21,11 @@ public class ViceDeanStepDefs {
         Driver.getDriver().get(ConfigReader.getProperty("managementonschoolsurl"));
     }
 
-    @Then("User clicks the login button")
-    public void userClicksTheLoginButton() {
-        homePage.loginLink.click();
-        ReusableMethods.waitFor(1);
-    }
+   // @Then("User clicks the login button")
+  //  public void userClicksTheLoginButton() {
+  //      homePage.loginLink.click();
+ //       ReusableMethods.waitFor(1);
+ //   }
 
     @Then("User enters user name")
     public void userEntersUserName() {
@@ -39,11 +39,11 @@ public class ViceDeanStepDefs {
         ReusableMethods.waitFor(1);
     }
 
-    @Then("User clicks the login button2")
-    public void userClicksTheLoginButton2() {
-        loginPage.loginButton.click();
-        ReusableMethods.waitFor(1);
-    }
+ //   @Then("User clicks the login button2")
+ //   public void userClicksTheLoginButton2() {
+  //      loginPage.loginButton.click();
+ //       ReusableMethods.waitFor(1);
+ //   }
 
     @Then("User clicks on the lessons button")
     public void userClicksOnTheLessonsButton() {

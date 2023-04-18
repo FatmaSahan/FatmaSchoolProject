@@ -1,7 +1,6 @@
 @US03_TC03
-  #Test Ran and passed
-Feature: US03_Contact
 
+Feature: US03_Contact
   Scenario Outline: TC03_Email_Negatif_Test
     Given User goes to home page
 

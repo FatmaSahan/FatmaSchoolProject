@@ -111,40 +111,41 @@ public class StepDefinitionsOfFatma {
 ////////////////////////Register Part/////////////////////////
 @When("Clicks the TopRegisterButon")
 public void clicksTheTopRegisterButon() {
+
     registerPage.TopRegisterButton.click();
 }
 
-    @And("cliks name")
-    public void cliksName() {
+    @And("Clics name")
+    public void clicsName() {
         registerPage.NameTextBox.click();
     }
 
-    @And("cliks page")
-    public void cliksPage() {
+    @And("Clics page")
+    public void clicsPage() {
         registerPage.page.click();
         ReusableMethods.waitFor(2);
     }
 
     @Then("If NameRequiredText visibilities enters name in NameTextBox")
-    public void ıfNameRequiredTextVisibilitiesEntersNameInNameTextBox() {
+    public void ifNameRequiredTextVisibilitiesEntersNameInNameTextBox() {
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
         registerPage.NameTextBox.sendKeys(faker.name().firstName());
     }
 
     @Then("If SurnameRequiredText visibilities enters surname in SurNameTextBox")
-    public void ıfSurnameRequiredTextVisibilitiesEntersSurnameInSurNameTextBox() {
+    public void ifSurnameRequiredTextVisibilitiesEntersSurnameInSurNameTextBox() {
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
         registerPage.SurNameTextBox.sendKeys(faker.name().lastName());
     }
 
     @Then("If BirtPlaceRequiredText visibilities enters birthplace in BirtPlaceRequiredText")
-    public void ıfBirtPlaceRequiredTextVisibilitiesEntersBirthplaceInBirtPlaceRequiredText() {
+    public void ifBirtPlaceRequiredTextVisibilitiesEntersBirthplaceInBirtPlaceRequiredText() {
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
         registerPage.BirthPlaceTextBox.sendKeys(faker.address().city());
     }
 
     @Then("If PhoneRequiredText visibilities enters phonenumber in PhoneBox")
-    public void ıfPhoneRequiredTextVisibilitiesEntersPhonenumberInPhoneBox() {
+    public void ifPhoneRequiredTextVisibilitiesEntersPhonenumberInPhoneBox() {
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
         registerPage.PhoneBox.sendKeys(faker.number().numberBetween(100, 999) + "-"
                 + faker.number().numberBetween(100, 999) + "-" + faker.number().numberBetween(1000, 9999));
@@ -156,7 +157,7 @@ public void clicksTheTopRegisterButon() {
     }
 
     @Then("If DateOfBirthRequiredText visibilities enters dateofbirth in DateOfBirthBox")
-    public void ıfDateOfBirthRequiredTextVisibilitiesEntersDateofbirthInDateOfBirthBox() {
+    public void ifDateOfBirthRequiredTextVisibilitiesEntersDateofbirthInDateOfBirthBox() {
 
         SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy");
         registerPage.DateOfBirthBox.sendKeys(sdf.format(faker.date().birthday()));
@@ -166,7 +167,7 @@ public void clicksTheTopRegisterButon() {
     }
 
     @Then("If SsnRequiredText visibilities enters ssn in SsnBox")
-    public void ıfSsnRequiredTextVisibilitiesEntersSsnInSsnBox() {
+    public void ifSsnRequiredTextVisibilitiesEntersSsnInSsnBox() {
 
         // registerPage.SsnBox.sendKeys(faker.idNumber().ssnValid());
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
@@ -177,7 +178,7 @@ public void clicksTheTopRegisterButon() {
     }
 
     @Then("If UserNameRequiredText visibilities enters username in UserNameText")
-    public void ıfUserNameRequiredTextVisibilitiesEntersUsernameInUserNameText() {
+    public void ifUserNameRequiredTextVisibilitiesEntersUsernameInUserNameText() {
 
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
         registerPage.UserNameBox.sendKeys(faker.name().username());
@@ -185,7 +186,7 @@ public void clicksTheTopRegisterButon() {
     }
 
     @Then("If PasswordRequiredText visibilities enters {int} character password in PasswordBox")
-    public void ıfPasswordRequiredTextVisibilitiesEntersCharacterPasswordInPasswordBox(int arg0) {
+    public void ifPasswordRequiredTextVisibilitiesEntersCharacterPasswordInPasswordBox(int arg0) {
 
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
         registerPage.PasswordBox.sendKeys(faker.internet().password((arg0), arg0 + 2));
@@ -200,15 +201,15 @@ public void clicksTheTopRegisterButon() {
         registerPage.BottomRegisterButton.submit();
     }
 
-    @Then("Then Verifies the visibility of the GuestUserRegisteredText")
-    public void thenVerifiesTheVisibilityOfTheGuestUserRegisteredText() {
+
+    @Then("Verifies the visibility of the GuestUserRegisteredText")
+    public void verifiesTheVisibilityOfTheGuestUserRegisteredText() {
         // String expectedData="Guest User registered";
         // String actualData=registerPage.GuestUserRegisteredText.getText();
         // Assert.assertEquals(expectedData,actualData);
         ReusableMethods.waitForVisibility(registerPage.GuestUserRegisteredText, 4);
         ReusableMethods.hover(registerPage.GuestUserRegisteredText);
         Assert.assertEquals("Guest User registered.", registerPage.GuestUserRegisteredText.getText());
-
     }
 
     @Then("close driver")
@@ -228,17 +229,18 @@ public void clicksTheTopRegisterButon() {
         Assert.assertEquals("Minimum 11 character (XXX-XX-XXXX)", registerPage.SsnWarningText.getText());
     }
 
-    @And("Enters yedi characters in PasswordBox")
-    public void entersYediCharactersInPasswordBox() {
-        registerPage.SsnBox.sendKeys(ConfigReader.getProperty("MyPassword"));
+    @And("Enters {int} characters in PasswordBox")
+    public void entersCharactersInPasswordBox(int arg0) {
+        registerPage.PasswordBox.sendKeys(ConfigReader.getProperty("MyPassword"));
     }
-
 
 
     @Then("Verifies visibility of  PasswordWarningText")
     public void verifiesVisibilityOfPasswordWarningText() {
         Assert.assertEquals("Minimum 8 character", registerPage.PasswordWarningText.getText());
     }
+
+
 }
 
 

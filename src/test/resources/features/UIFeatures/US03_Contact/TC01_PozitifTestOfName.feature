@@ -1,8 +1,6 @@
 @US03_TC01
-  #Ran and passed
 
 Feature: US03_Contact
-
   Scenario Outline: TC01_Name_Pozitif_Test
     Given User goes to home page
     When Clicks the top ContactButon

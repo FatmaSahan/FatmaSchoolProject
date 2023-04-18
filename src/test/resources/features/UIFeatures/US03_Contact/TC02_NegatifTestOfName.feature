@@ -1,14 +1,9 @@
 @US03_TC02
-#test ran and passed
-
-
 
 Feature: US03_Contact
-
   Scenario Outline: TC02_Name_Negatif_Test
     Given User goes to home page
     When Clicks the top ContactButon
-    #And Scroll down the page
     And Enter "<name>" in the NameBox
     And Enters email in the EmailBox
     And Enters "<subject>" in the SubjectBox

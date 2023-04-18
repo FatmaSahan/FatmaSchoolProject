@@ -1,8 +1,7 @@
-#test ran and passed
+
 @US03_TC04
 
 Feature: US03_Contact
-
   Scenario Outline: TC04_Email_Negatif_Test
     Given User goes to home page
     When Clicks the top ContactButon

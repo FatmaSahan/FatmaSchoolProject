@@ -112,7 +112,7 @@ public class RegisterPage {
     @FindBy(xpath ="//*[text()='Minimum 11 character (XXX-XX-XXXX)']")
     public WebElement SsnWarningText;
 
-    @FindBy(xpath ="//div[normalize-space()='Minimum 8 character']")
+    @FindBy(xpath ="//div[text()='Minimum 8 character']")
     public WebElement PasswordWarningText;
 
 
