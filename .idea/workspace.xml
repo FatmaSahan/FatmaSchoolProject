@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21db1df6-ded1-4488-9091-dc787466e900" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/RegisterPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/apiStepDefsFatma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_register/TC01_api_guestUser_post.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_register/TC02_api_guestUser_get.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,16 +78,15 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner_Fatma">
-    <configuration name="Scenario: Select Lesson by Choosing Teacher" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: TC01_api_guestUser_post">
+    <configuration name="Feature: TC01_api_guestUser_post" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_12/US12_TC01.feature" />
-      <option name="GLUE" value="hooks stepdefinitions.uistepdefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_register/TC01_api_guestUser_post.feature" />
+      <option name="GLUE" value="hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="StudentManagementProject18" />
-      <option name="NAME_FILTER" value="^Select Lesson by Choosing Teacher$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Select Lesson by Choosing Teacher$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Select Lesson by Choosing Teacher" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: TC01_api_guestUser_post" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -95,15 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Select Lesson by Choosing Teacher" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_06/US06_TC01.feature" />
-      <option name="GLUE" value="hooks" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_12/US12_TC01.feature" />
+      <option name="GLUE" value="hooks stepdefinitions.uistepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="StudentManagementProject18" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="NAME_FILTER" value="^Select Lesson by Choosing Teacher$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Select Lesson by Choosing Teacher$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Select Lesson by Choosing Teacher" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: TC01_api_guestUser_post" />
         <item itemvalue="JUnit.Runner_Fatma" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.Runner_hakan" />
         <item itemvalue="Cucumber Java.Scenario: Select Lesson by Choosing Teacher" />
-        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
