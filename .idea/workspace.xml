@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21db1df6-ded1-4488-9091-dc787466e900" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/RegisterPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/apiStepDefsFatma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_register/TC01_api_guestUser_post.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_register/TC02_api_guestUser_get.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/ContactRequestPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/ContactResponsePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/RegisterResponsePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/apiStepdefsFatma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_contact/TC02_api_contact_getByEmail.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_contact/TC03_api_contact_getBySubject.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/SchoolBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/SchoolBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/RegisterPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/RegisterRequestPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner_Fatma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner_Fatma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/RegisterContactStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/RegisterContactStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/uistepdefinitions/apiStepDefsFatma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/AuthenticationSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/AuthenticationSchool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_register/TC01_api_guestUser_post.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US01_api_register/TC01_api_guestUser_get.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_register/TC02_api_guestUser_get.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC01_PozitifTestOfName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US03_Contact/TC01_PozitifTestOfName.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/g1g2g3g4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/g1g2g3g4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +91,26 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: TC01_api_guestUser_post">
+  <component name="RunManager" selected="JUnit.Runner_Fatma">
+    <configuration name="Feature: TC01_api_guestUser_get" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US01_api_register/TC01_api_guestUser_get.feature" />
+      <option name="GLUE" value="hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="StudentManagementProject18" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: TC01_api_guestUser_get" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: TC01_api_guestUser_post" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APIFeatures/US03_api_register/TC01_api_guestUser_post.feature" />
@@ -98,22 +130,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Select Lesson by Choosing Teacher" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UIFeatures/US_12/US12_TC01.feature" />
-      <option name="GLUE" value="hooks stepdefinitions.uistepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="ApiRunnerFatma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentManagementProject18" />
-      <option name="NAME_FILTER" value="^Select Lesson by Choosing Teacher$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Select Lesson by Choosing Teacher$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Select Lesson by Choosing Teacher" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.ApiRunnerFatma" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,28 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner_hakan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentManagementProject18" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner_hakan" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: TC01_api_guestUser_post" />
         <item itemvalue="JUnit.Runner_Fatma" />
+        <item itemvalue="Cucumber Java.Feature: TC01_api_guestUser_get" />
+        <item itemvalue="Cucumber Java.Feature: TC01_api_guestUser_post" />
+        <item itemvalue="JUnit.ApiRunnerFatma" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="JUnit.Runner_hakan" />
-        <item itemvalue="Cucumber Java.Scenario: Select Lesson by Choosing Teacher" />
       </list>
     </recent_temporary>
   </component>

@@ -3,32 +3,39 @@ package pojos;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class RegisterPojo {
+public class RegisterRequestPojo {
 
+    private String username;
+    private String ssn;
     private String name;
     private String surname;
+    private String birthDay;
     private String birthPlace;
     private String phoneNumber;
     private String gender;
-    private String birtDay;
-    private String ssn;
-    private String username;
-    private String password;
 
-    public RegisterPojo() {
-
+    public RegisterRequestPojo() {
     }
 
-    public RegisterPojo(String name, String surname, String birthPlace, String phoneNumber, String gender, String birtDay, String ssn, String username, String password) {
+
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public RegisterRequestPojo(String username, String ssn, String name, String surname, String birthDay, String birthPlace, String phoneNumber, String gender) {
+        this.username = username;
+        this.ssn = ssn;
         this.name = name;
         this.surname = surname;
+        this.birthDay = birthDay;
         this.birthPlace = birthPlace;
         this.phoneNumber = phoneNumber;
         this.gender = gender;
-        this.birtDay = birtDay;
-        this.ssn = ssn;
-        this.username = username;
-        this.password = password;
     }
 
     public String getName() {
@@ -45,6 +52,22 @@ public class RegisterPojo {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public String getBirthDay() {
+        return birthDay;
+    }
+
+    public void setBirthDay(String birthDay) {
+        this.birthDay = birthDay;
+    }
+
+    public String getSsn() {
+        return ssn;
+    }
+
+    public void setSsn(String ssn) {
+        this.ssn = ssn;
     }
 
     public String getBirthPlace() {
@@ -71,50 +94,21 @@ public class RegisterPojo {
         this.gender = gender;
     }
 
-    public String getBirtDay() {
-        return birtDay;
-    }
 
-    public void setBirtDay(String birtDay) {
-        this.birtDay = birtDay;
-    }
-
-    public String getSsn() {
-        return ssn;
-    }
-
-    public void setSsn(String ssn) {
-        this.ssn = ssn;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
     @Override
     public String toString() {
-        return "RegisterPojo{" +
-                "name='" + name + '\'' +
+        return "RegisterRequestPojo{" +
+
+                ", username='" + username + '\'' +
+                ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
+                ", birthDay='" + birthDay + '\'' +
+                ", ssn='" + ssn + '\'' +
                 ", birthPlace='" + birthPlace + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", gender='" + gender + '\'' +
-                ", birtDay='" + birtDay + '\'' +
-                ", ssn='" + ssn + '\'' +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
+
                 '}';
     }
 }

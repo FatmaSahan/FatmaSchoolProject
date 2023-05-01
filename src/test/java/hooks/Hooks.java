@@ -18,7 +18,8 @@ public class Hooks {
         schoolSetUp();
     }
 
-    @After
+   /* @After
+
     public void tearDownScenarios(Scenario scenario){
         System.out.println("After Metotu");
 //        Eger bir Scenario FAIL ederse, ekran goruntusunu al ve rapora ekle
@@ -30,4 +31,6 @@ public class Hooks {
         }
         Driver.closeDriver();
     }
+
+    */
 }

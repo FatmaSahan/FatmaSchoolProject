@@ -16,7 +16,10 @@ public class AuthenticationSchool {
         bodyMap.put("password","987654321");
         bodyMap.put("username","T18Admin");
 
-        Response response = given().contentType(ContentType.JSON).body(bodyMap).post("https://school-management-v1.herokuapp.com/auth/login");
+        Response response = given().contentType(ContentType.JSON).body(bodyMap).post("http://164.92.252.42:8080/auth/login");
         return  response.jsonPath().getString("token");
+
     }
+
+
 }

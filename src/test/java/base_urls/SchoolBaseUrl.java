@@ -10,12 +10,13 @@ public class SchoolBaseUrl {
 
     public static RequestSpecification spec;
 
-    public static void schoolSetUp(){
+    public static void schoolSetUp() {
 
         spec = new RequestSpecBuilder().
                 setContentType(ContentType.JSON).
-                addHeader("Authorization",generateToken()).
-                setBaseUri("https://school-management-v1.herokuapp.com/").build();
+                addHeader("Authorization", generateToken()).
+                setBaseUri("http://164.92.252.42:8080").build();
 
+//https://school-management-v1.herokuapp.com/
     }
 }

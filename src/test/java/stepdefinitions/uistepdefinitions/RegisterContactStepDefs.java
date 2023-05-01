@@ -22,7 +22,19 @@ public class RegisterContactStepDefs {
     Actions actions = new Actions(Driver.getDriver());
     JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
     Faker faker = new Faker();
+    public static String fakerNameFS;
+    public static String fakerSurnameFS;
+    public static String fakerBirtPlaceFS;
+    public static String fakerPhoneNumberFS;
 
+    public static String fakerBirthDayFS;
+    public static String fakerSsnFS;
+    public static String fakerUserNameFS;
+    //--------Contact Part------
+    public static String fakerContactNameFS;
+    public static String fakerContactEmailFS;
+    public static String fakerContactSubjectFS;
+    public static String contactMessageFS;
 
     @Given("User goes to home page")
     public void user_goes_to_home_page() {
@@ -49,14 +61,15 @@ public class RegisterContactStepDefs {
 
     @And("Enter name in the NameBox")
     public void enterNameInTheNameBox() {
+        fakerContactNameFS=faker.name().firstName();
 
-        registerPage.NameBox.sendKeys(faker.name().firstName());
+        registerPage.NameBox.sendKeys(fakerContactNameFS);
     }
 
     @And("Enters email in the EmailBox")
     public void entersEmailInTheEmailBox() {
-
-        registerPage.EmailBox.sendKeys(faker.internet().emailAddress());
+        fakerContactEmailFS=faker.internet().emailAddress();
+             registerPage.EmailBox.sendKeys(fakerContactEmailFS);
     }
 
     @And("Enters {string} in the EmailBox")
@@ -70,10 +83,17 @@ public class RegisterContactStepDefs {
 
         registerPage.SubjectBox.sendKeys(string);
     }
+    @And("Enters  in the SubjectBox")
+    public void entersInTheSubjectBox() {
+
+        fakerContactSubjectFS=faker.lorem().word();
+        registerPage.SubjectBox.sendKeys(fakerContactSubjectFS);
+    }
 
     @When("Enters {string} in the MessageBox")
     public void enters_in_the_message_box(String string) {
-        registerPage.MessageBox.sendKeys(string);
+        contactMessageFS="Everything gonna be allright";
+        registerPage.MessageBox.sendKeys(contactMessageFS);
         ReusableMethods.waitFor(1);
 
 
@@ -129,26 +149,31 @@ public void clicksTheTopRegisterButon() {
     @Then("If NameRequiredText visibilities enters name in NameTextBox")
     public void ifNameRequiredTextVisibilitiesEntersNameInNameTextBox() {
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
-        registerPage.NameTextBox.sendKeys(faker.name().firstName());
+          fakerNameFS=faker.name().firstName();
+        registerPage.NameTextBox.sendKeys(fakerNameFS);
     }
 
     @Then("If SurnameRequiredText visibilities enters surname in SurNameTextBox")
     public void ifSurnameRequiredTextVisibilitiesEntersSurnameInSurNameTextBox() {
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
-        registerPage.SurNameTextBox.sendKeys(faker.name().lastName());
+         fakerSurnameFS=faker.name().lastName();
+        registerPage.SurNameTextBox.sendKeys(fakerSurnameFS);
     }
 
     @Then("If BirtPlaceRequiredText visibilities enters birthplace in BirtPlaceRequiredText")
     public void ifBirtPlaceRequiredTextVisibilitiesEntersBirthplaceInBirtPlaceRequiredText() {
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
-        registerPage.BirthPlaceTextBox.sendKeys(faker.address().city());
+         fakerBirtPlaceFS=faker.address().city();
+        registerPage.BirthPlaceTextBox.sendKeys(fakerBirtPlaceFS);
     }
 
     @Then("If PhoneRequiredText visibilities enters phonenumber in PhoneBox")
     public void ifPhoneRequiredTextVisibilitiesEntersPhonenumberInPhoneBox() {
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
-        registerPage.PhoneBox.sendKeys(faker.number().numberBetween(100, 999) + "-"
-                + faker.number().numberBetween(100, 999) + "-" + faker.number().numberBetween(1000, 9999));
+         fakerPhoneNumberFS=faker.number().numberBetween(100, 999) + "-"
+                           + faker.number().numberBetween(100, 999) + "-"
+                           + faker.number().numberBetween(1000, 9999);
+                       registerPage.PhoneBox.sendKeys(fakerPhoneNumberFS);
     }
 
     @And("Chooses  gender")
@@ -160,7 +185,9 @@ public void clicksTheTopRegisterButon() {
     public void ifDateOfBirthRequiredTextVisibilitiesEntersDateofbirthInDateOfBirthBox() {
 
         SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy");
-        registerPage.DateOfBirthBox.sendKeys(sdf.format(faker.date().birthday()));
+       fakerBirthDayFS=sdf.format(faker.date().birthday());
+
+        registerPage.DateOfBirthBox.sendKeys(fakerBirthDayFS);
 
         ReusableMethods.waitFor(2);
 
@@ -172,8 +199,10 @@ public void clicksTheTopRegisterButon() {
         // registerPage.SsnBox.sendKeys(faker.idNumber().ssnValid());
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
 
-        registerPage.SsnBox.sendKeys(faker.number().numberBetween(100, 999) + "-"
-                + faker.number().numberBetween(10, 99) + "-" + faker.number().numberBetween(1000, 9999));
+         fakerSsnFS=  faker.number().numberBetween(100, 999) + "-"
+                          + faker.number().numberBetween(10, 99) + "-"
+                          + faker.number().numberBetween(1000, 9999);
+                      registerPage.SsnBox.sendKeys(fakerSsnFS);
 
     }
 
@@ -181,7 +210,9 @@ public void clicksTheTopRegisterButon() {
     public void ifUserNameRequiredTextVisibilitiesEntersUsernameInUserNameText() {
 
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
-        registerPage.UserNameBox.sendKeys(faker.name().username());
+         fakerUserNameFS=faker.name().username();
+        registerPage.UserNameBox.sendKeys(fakerUserNameFS);
+
         ReusableMethods.waitFor(2);
     }
 
@@ -189,7 +220,8 @@ public void clicksTheTopRegisterButon() {
     public void ifPasswordRequiredTextVisibilitiesEntersCharacterPasswordInPasswordBox(int arg0) {
 
         Assert.assertEquals("Required", registerPage.RequiredText.getText());
-        registerPage.PasswordBox.sendKeys(faker.internet().password((arg0), arg0 + 2));
+        String fakerPasswordFS=faker.internet().password((arg0), arg0 + 2);
+        registerPage.PasswordBox.sendKeys(fakerPasswordFS);
         ReusableMethods.waitFor(2);
 
         // SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy");
@@ -243,7 +275,9 @@ public void clicksTheTopRegisterButon() {
     }
 
 
+
 }
+
 
 
 
